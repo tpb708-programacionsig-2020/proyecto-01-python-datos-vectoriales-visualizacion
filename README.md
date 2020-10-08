@@ -10,11 +10,11 @@ Debe enviarle al profesor por correo electrónico la dirección del notebook res
 Desarrolle un notebook de Jupyter que muestre un mapa Folium con las siguientes características:
 
 1. (5%) Tres capas base (puede elegirlas).
-2. Cuatro capas sobrepuestas (*overlay*):
-    a. (20%) Mapa de coropletas de casos positivos de COVID-19 en cantones de Costa Rica.
-    b. (20%) Mapa de coropletas de casos activos de COVID-19 en cantones de Costa Rica.
-    c. (20%) Mapa de coropletas de casos recuperados de COVID-19 en cantones de Costa Rica.
-    d. (20%) Mapa de coropletas de casos fallecidos de COVID-19 en cantones de Costa Rica.
+2. Cuatro capas sobrepuestas (*overlay*):  
+    a. (20%) Mapa de coropletas de casos positivos de COVID-19 en cantones de Costa Rica.  
+    b. (20%) Mapa de coropletas de casos activos de COVID-19 en cantones de Costa Rica.  
+    c. (20%) Mapa de coropletas de casos recuperados de COVID-19 en cantones de Costa Rica.  
+    d. (20%) Mapa de coropletas de casos fallecidos de COVID-19 en cantones de Costa Rica.  
 3. (10%) Control de capas para activar y desactivar las capas base y sobrepuestas.
 4. (5%) Control de escala.
 5. (5% extra) Al hacer clic sobre el polígono de un cantón, debe mostrarse el nombre del cantón y la cantidad de casos correspondiente a la capa (positivos, activos, recuperados o fallecidos).
