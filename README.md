@@ -4,7 +4,7 @@
 ### Fecha de entrega y entregables
 La fecha y hora límite para la entrega es **jueves 15 de octubre de 2020 a las 5:00 p.m.**
 
-Debe enviarle al profesor por correo electrónico la dirección del notebook resultante. Puede trabajar en grupos de un máximo de tres estudiantes. Solo debe enviarse un mensaje por grupo, con los nombres de los integrantes.
+Debe enviarle al profesor por correo electrónico la dirección para visualizar en [nbviewer](https://nbviewer.jupyter.org/) el notebook resultante. Puede trabajar en grupos de un máximo de tres estudiantes. Solo debe enviarse un mensaje por grupo, con los nombres de los integrantes.
 
 ### Desarrollo
 Desarrolle un notebook de Jupyter que muestre un mapa Folium con las siguientes características:
@@ -20,3 +20,5 @@ Desarrolle un notebook de Jupyter que muestre un mapa Folium con las siguientes 
 5. (5% extra) Al hacer clic sobre el polígono de un cantón, debe mostrarse el nombre del cantón y la cantidad de casos correspondiente a la capa (positivos, activos, recuperados o fallecidos).
 
 Se recomienda desarrollar el proyecto en un ambiente Conda, de manera similar a como se ha hecho en las lecciones. Los datos de COVID-19 en formato CSV y el archivo GeoJSON de cantones de Costa Rica están disponibles en [este enlace](https://github.com/tpb708-programacionsig-2020/leccion-10-folium/tree/main/datos).
+
+Escoja con cuidado los colores y estilos que use en las capas, de manera que sean visualmente atractivas y también funcionales.
