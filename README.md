@@ -19,23 +19,4 @@ Desarrolle un notebook de Jupyter que muestre un mapa Folium con las siguientes 
 4. (5%) Control de escala.
 5. (5% extra) Al hacer clic sobre el polígono de un cantón, debe mostrarse el nombre del cantón y la cantidad de casos correspondiente a la capa (positivos, activos, recuperados o fallecidos).
 
-
-Se recomienda ejecutar estos comandos en un ambiente Conda que contenga el paquete GDAL.
-
-Descargue la capa de cantones del Sistema Nacional de Información Territorial (SNIT, [https://www.snitcr.go.cr/](https://www.snitcr.go.cr/)) en un archivo GeoJSON llamado "cantones.geojson": 
-```shell
-# Descarga de la capa de cantones del IGN en el SNIT
-ogr2ogr -f GeoJSON -s_srs EPSG:5367 -t_srs EPSG:4326 -makevalid cantones.geojson WFS:"http://geos.snitcr.go.cr/be/IGN_5/wfs" "IGN_5:limitecantonal_5k"
-
-# Información sobre la capa descargada
-ogrinfo -al -so cantones.geojson
-```
-
-Utilice el comando ```ogr2ogr``` y el archivo "cantones.geojson" para realizar los siguientes ejercicios. El valor porcentual de cada uno se muestra entre paréntesis.
-
-1. (25%) Extraiga en un shapefile los cantones de la provincia de Heredia con área menor o igual que 20 km2.
-2. (25%) Extraiga en un archivo GeoPackage los campos de provincia, cantón y área de los cantones de la provincia de San José con área menor o igual que 20 km2.
-3. (25%) Extraiga en un archivo KML los campos de provincia, cantón y área de los cantones con área menor o igual que 20 km2 de las provincia de San José o Heredia.
-4. (25%) Extraiga en un archivo GeoJSON los campos de provincia, cantón y área de los cantones con área menor o igual que 20 km2 de la provincia de San José o con área mayor o igual que 2000 km2 de la provincia de Limón.
-
-Debe enviarle al profesor por correo electrónico un archivo de texto con los comandos utilizados en los ejercicios del 1 al 4.
+Se recomienda desarrollar el proyecto en un ambiente Conda, de manera similar a como se ha hecho en las lecciones. Los datos de COVID-19 en formato CSV y el archivo GeoJSON de cantones de Costa Rica están disponibles en [este enlace](https://github.com/tpb708-programacionsig-2020/leccion-10-folium/tree/main/datos).
